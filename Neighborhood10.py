@@ -199,7 +199,7 @@ def Neighborhood_one_otp(solution, truck_time):
                         pack_child = []
                         if (Function.has_duplicate_synchonize_point(new_solution)):
                             print ("doubplicate synchonize point:\n")
-                            print (new_solution[1])
+                            # print (new_solution[1])
                         else:
                             pack_child.append(new_solution)
                             a, b, c = Function.fitness(new_solution)
@@ -310,7 +310,7 @@ def Neighborhood_one_opt_standard(solution):
                         pack_child = []
                         if (Function.has_duplicate_synchonize_point(new_solution)):
                             print ("doubplicate synchonize point:\n")
-                            print (new_solution[1])
+                            # print (new_solution[1])
                         else:
                             pack_child.append(new_solution)
                             a, b, c = Function.fitness(new_solution)
@@ -547,7 +547,7 @@ def Neighborhood_one_otp_plus(solution, truck_time):
                         pack_child = []
                         if (Function.has_duplicate_synchonize_point(new_solution)):
                             print ("doubplicate synchonize point:\n")
-                            print (new_solution[1])
+                            # print (new_solution[1])
                         else:
                             pack_child.append(new_solution)
                             a, b, c = Function.fitness(new_solution)
@@ -599,7 +599,7 @@ def Neighborhood_move_depot(solution):
             pack_child = []
             if (Function.has_duplicate_synchonize_point(new_solution)):
                 print ("doubplicate synchonize point:\n")
-                print (new_solution[1])
+                # print (new_solution[1])
             else:
                 pack_child.append(new_solution)
                 a, b, c = Function.fitness(new_solution)
@@ -691,7 +691,7 @@ def Neighborhood_one_otp_fix_for_specific_truck(solution, index_truck):
                         pack_child = []
                         if (Function.has_duplicate_synchonize_point(new_solution)):
                             print ("doubplicate synchonize point:\n")
-                            print (new_solution[1])
+                            # print (new_solution[1])
                         else:
                             pack_child.append(new_solution)
                             a, b, c = Function.fitness(new_solution)
@@ -786,7 +786,7 @@ def Neighborhood_move_1_1_ver2_for_specific_truck(solution, index_truck):
                     pack_child = []
                     if (Function.has_duplicate_synchonize_point(new_solution)):
                         print ("doubplicate synchonize point:\n")
-                        print (new_solution[1])
+                        # print (new_solution[1])
                     else:                
                         pack_child.append(new_solution)
                         a, b, c = Function.fitness(new_solution)                

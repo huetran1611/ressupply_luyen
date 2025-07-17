@@ -106,7 +106,7 @@ def Neighborghood_change_drone_route(solution):
                     temp = []
                     if (Function.has_duplicate_synchonize_point(New_solution1)):
                         print ("this solution has duplicate synchonixe point see drone que: \n")
-                        print (New_solution1[1])
+                        #print (New_solution1[1])
                     else:
                         temp.append(New_solution1)
                         fit, dt, tt = Function.fitness(New_solution1)
@@ -249,7 +249,7 @@ def Neighborghood_change_drone_route_plus(solution):
                         temp = []
                         if (Function.has_duplicate_synchonize_point(New_solution1)):
                             print ("this solution has duplicate synchonixe point see drone que: \n")
-                            print (New_solution1[1])
+                          #  print (New_solution1[1])
                         else:
                             temp.append(New_solution1)
                             fit, dt, tt = Function.fitness(New_solution1)
@@ -1331,7 +1331,7 @@ def Neighborghood_change_drone_route_max_pro_plus(solution):
                 if New_solution1:
                     if (Function.has_duplicate_synchonize_point(New_solution1)):
                         print ("this solution has duplicate synchonixe point see drone que: \n")
-                        print (New_solution1[1])
+                       # print (New_solution1[1])
                     else:
                         temp = []
                         temp.append(New_solution1)
@@ -1747,7 +1747,7 @@ def Neighborhood_change_index_trip(solution):
             temp = []
             if (Function.has_duplicate_synchonize_point(new_solution)):
                 print ("this solution has duplicate synchonixe point see drone que: \n")
-                print (new_solution[1])
+                #print (new_solution[1])
             else:
                 temp.append(new_solution)
                 fit, dt, tt = Function.fitness(new_solution)

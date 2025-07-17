@@ -342,7 +342,7 @@ def two_swap(solution, truck_time):
                             pack_child = []
                             if (Function.has_duplicate_synchonize_point(newsolution)):
                                 print ("doubplicate synchonize point:\n")
-                                print (newsolution[1])
+                              #  print (newsolution[1])
                             else:
                                 pack_child.append(newsolution)
                                 a, b = Function.fitness(newsolution)
@@ -438,7 +438,7 @@ def Neighborhood_move_1_1_standard(solution):
                     pack_child = []
                     if (Function.has_duplicate_synchonize_point(new_solution)):
                         print ("doubplicate synchonize point:\n")
-                        print (new_solution[1])
+                      #  print (new_solution[1])
                     else:
                     # print("------------------")
                     # print(new_solution)
@@ -506,7 +506,7 @@ def Neighborhood_two_opt(solution):
                 pack_child = []
                 if (Function.has_duplicate_synchonize_point(new_solution)):
                     print ("doubplicate synchonize point:\n")
-                    print (new_solution[1])
+                  #  print (new_solution[1])
                 else:
                     pack_child.append(new_solution)
                     a, b, c = Function.fitness(new_solution)                
@@ -641,7 +641,7 @@ def Neighborhood_move_2_1(solution):
                     pack_child = []
                     if (Function.has_duplicate_synchonize_point(new_solution)):
                         print ("doubplicate synchonize point:\n")
-                        print (new_solution[1])
+                      #  print (new_solution[1])
                     else:
                         pack_child.append(new_solution)
                         a, b, c = Function.fitness(new_solution)                
@@ -754,7 +754,7 @@ def Neighborhood_two_opt_tue(solution):
                     pack_child = []
                     if (Function.has_duplicate_synchonize_point(new_solution)):
                         print ("doubplicate synchonize point:\n")
-                        print (new_solution[1])
+                       # print (new_solution[1])
                     else:
                         pack_child.append(new_solution)
                         a, b, c = Function.fitness(new_solution)                
