@@ -21,7 +21,7 @@ number_of_drones = 2
 truck_speed = 0.5
 # drone_speed = 10/6
 drone_speed = 1
-drone_capacity = 10
+drone_capacity = 2
 drone_limit_time = 90
 city_demand = []
 release_date = []
@@ -90,6 +90,7 @@ def read_data(path):
     standard_deviation = calculate_standard_deviation(release_date)
     # print(standard_deviation)
     return data
+
 
 def euclid_distance(city1, city2):
     return math.sqrt((city1[0] - city2[0])**2 + (city1[1] - city2[1])**2)
