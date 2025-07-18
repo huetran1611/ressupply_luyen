@@ -35,8 +35,8 @@ LOOP_IMPROVED = 0
 SET_LAST_10 = [] 
 BEST = []
 TIME_LIMIT = 3600
-data_set = os.getenv('DATA_SET', "U_20_0.5_Num_4.txt")
-center = os.getenv('CENTER', "border")
+data_set = os.getenv('DATA_SET', "U_30_0.5_Num_3.txt")
+center = os.getenv('CENTER', "outside")
 start_time = time.time()
 # 
 factor = 0.3 #0.3 0.6
