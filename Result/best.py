@@ -3,7 +3,7 @@ from pathlib import Path
 
 def main():
     # Đường dẫn đến file đã tổng hợp
-    data_path = 'Result_20250717/analysis_results.xlsx'
+    data_path = 'Result/20250718_luyen_old_version/all_analysis_results.xlsx'
     
     # Đọc dữ liệu
     df = pd.read_excel(data_path)
@@ -21,7 +21,7 @@ def main():
     best_df = df.loc[idx_min].reset_index(drop=True)
     
     # Lưu kết quả
-    output_file = 'Result_20250717/best_results.xlsx'
+    output_file = 'Result/20250718_luyen_old_version/best_results.xlsx'
     best_df.to_excel(output_file, index=False)
     print(f"Saved best-results per config to: {output_file}")
 

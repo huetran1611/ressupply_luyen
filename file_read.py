@@ -48,19 +48,19 @@ a = tranfer([
             0
         ], 1)
 # print(a)
-# a = add(a, 6, 9)
-# a = add(a, 9, 9)
-# a = add(a, 14, 9)
-# a = add(a, 7, 7)
-# a = add(a, 10, 7)
-# a = add(a, 15, 15)
-# a = add(a, 12, 15)
-# a = add(a, 8, 13)
+a = add(a, 6, 9)
+a = add(a, 9, 9)
+a = add(a, 14, 9)
+a = add(a, 7, 7)
+a = add(a, 10, 7)
+a = add(a, 15, 15)
+a = add(a, 12, 15)
+a = add(a, 8, 13)
 
 
 
 
-a = add(a, 6, 6)
+#a = add(a, 6, 6)
 
 print(a)
 print(Function.fitness(a))
